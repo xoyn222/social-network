@@ -1,0 +1,30 @@
+.newsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    font-family: 'Lora', serif;
+}
+
+.newsItem {
+    border: 5px solid lightgrey;
+    width: 30%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.newsItem a {
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.newsItem a:hover {
+    background-color: rgba(30, 136, 229, 0.1);
+}

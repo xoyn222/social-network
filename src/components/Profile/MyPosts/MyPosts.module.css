@@ -1,0 +1,63 @@
+.postsContainer {
+    padding: 20px;
+    min-height: 35vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background: #dadada;
+    margin: 20px 10px 10px 10px;
+}
+
+.postsBlock {
+    width: 58%;
+}
+
+.sideBar {
+    width: 40%;
+    height: 32.3vh;
+    font-family: 'Lora', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
+
+.posts {
+    margin-top: 10px;
+}
+
+.btnPost {
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    height: 50px;
+    width: 50px;
+}
+
+.addPostContainer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    width: 22vw;
+    font-family: 'Lora', serif;
+    margin-bottom: 20px;
+}
+
+.textarea {
+    border-radius: 7px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+    width: 22vw;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    padding: 20px;
+}

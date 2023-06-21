@@ -1,0 +1,56 @@
+.messagesContainer {
+    display: flex;
+    width: 100%;
+    height: 94vh;
+}
+
+.messagesItems{
+    padding: 10px;
+    width: 30%;
+    height: 92vh;
+    background: #dadada;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.messagesContent {
+    width: 100%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow-y: auto;
+    box-sizing: border-box;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    background: lightgrey;
+    border-radius: 10px;
+    background-image: url("../../backgrounds/pattern-28.svg");
+    border: 20px solid lightgrey;
+
+}
+
+.ulMessagesContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.messBodyBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    height: 92vh;
+}
+
+
+
+

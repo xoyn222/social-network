@@ -1,0 +1,84 @@
+.avaContainer {
+    width: 100%;
+    height: 35vh;
+    border: 20px solid #dadada;;
+    display: flex;
+    align-items: flex-end;
+    background-image: url("../../../backgrounds/2208_w048_n005_279a_p1_279.jpg");
+    background-size: cover;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.avaDescrBlock {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.avaBorderBlock {
+    background: #dadada;
+    border-radius: 200px 200px 0 0;
+}
+
+.ava {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.borderDescriptionBLock {
+    background: #dadada;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-family: 'Lora', serif;
+
+}
+
+.descriptionContainer {
+    border: 4px solid lightgrey;
+    min-height: 15vh;
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.aboutMe {
+    border: 1px solid lightgrey;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editInput {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Lora', serif;
+    height: 40px;
+    outline: none;
+}
+
+.status {
+    box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    font-weight: bold;
+}
+
+.statusBlock {
+    box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.3);
+    padding: 13px;
+    border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+.setContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    font-family: 'Lora', serif;
+}
+
+.back {
+    background-image: url("404.svg");
+    background-size: cover;
+    width: 40vw;
+    height: 40vh;
+    border-radius: 20px;
+
+}

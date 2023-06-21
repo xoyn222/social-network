@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 15vh;
+    overflow: auto;
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background: #dadada;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.textareaS {
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.btnS {
+    box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 50px;
+    height: 50px;
+}
+
+
+
